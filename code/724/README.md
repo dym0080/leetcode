@@ -1,5 +1,8 @@
+## 我的Solution
 
-## 解题过程记录
+[python](https://github.com/dym0080/leetcode/blob/master/code/724/724_find_pivot_index.py)
+
+## 提交未通过记录
 
 第一次提交:
 

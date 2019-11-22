@@ -1,5 +1,9 @@
 
-## 解题过程记录
+## 我的Solution
+
+[python](https://github.com/dym0080/leetcode/blob/master/code/1/1_two_sum.py)
+
+## 提交未通过记录
 
 第一次提交：
 

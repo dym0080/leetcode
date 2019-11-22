@@ -1,12 +1,6 @@
-## 我的解决方案
+## 我的Solution
 
-```python
-class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
-        while nums.count(val)>0:
-            nums.remove(val)
-        return len(nums)
-```
+[python](https://github.com/dym0080/leetcode/blob/master/code/27/27_remove_element.py)
 
 ## 记录、比较、分析别人的解决方案
 

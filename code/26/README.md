@@ -1,3 +1,11 @@
+
+
+## 我的Solution
+
+[python](https://github.com/dym0080/leetcode/blob/master/code/26/26_remove_dulicates_from_sorted_array)
+
+## 提交未通过记录
+
 这一题前面提交的几次都是没通过，后面看了题解（使用**双指针**方法,之前没接触过这个概念）才写出来的。
 
 前面两次没通过的提交记录：
