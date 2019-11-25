@@ -1,5 +1,5 @@
 class Solution:
-    def pivotIndex(self, nums)
+    def pivotIndex(self, nums):
         S = sum(nums)
         leftSum = 0
         for i,v in enumerate(nums):
