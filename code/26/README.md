@@ -2,7 +2,7 @@
 
 ## 我的Solution
 
-[python](https://github.com/dym0080/leetcode/blob/master/code/26/26_remove_dulicates_from_sorted_array)
+[python](../26/26_remove_dulicates_from_sorted_array)
 
 ## 提交未通过记录
 

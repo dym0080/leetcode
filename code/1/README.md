@@ -1,7 +1,7 @@
 
 ## 我的Solution
 
-[python](https://github.com/dym0080/leetcode/blob/master/code/1/1_two_sum.py)
+[python](../1/1_two_sum.py)
 
 ## 提交未通过记录
 

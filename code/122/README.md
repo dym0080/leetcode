@@ -1,6 +1,6 @@
 ## 我的Solution
 
-[python](https://github.com/dym0080/leetcode/blob/master/code/122/122_best_time_to_buy_and_sell_stock_ii.py)
+[python](../122/122_best_time_to_buy_and_sell_stock_ii.py)
 
 ## 解题思路
 

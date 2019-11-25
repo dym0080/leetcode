@@ -1,6 +1,6 @@
 ## 我的Solution
 
-[python](https://github.com/dym0080/leetcode/blob/master/code/189/189_rotate_array.py)
+[python](../189/189_rotate_array.py)
 
 ## 解题思路
 

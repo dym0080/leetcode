@@ -1,6 +1,6 @@
 ## 我的Solution
 
-[python](https://github.com/dym0080/leetcode/blob/master/code/724/724_find_pivot_index.py)
+[python](../724/724_find_pivot_index.py)
 
 ## 提交未通过记录
 
