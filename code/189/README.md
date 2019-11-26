@@ -42,5 +42,3 @@ class Solution(object):
 
 
 ## 记录、比较、分析别人的Solution
-
-## 复杂度分析
