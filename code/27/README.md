@@ -1,6 +1,6 @@
 ## 我的Solution
 
-[python](https://github.com/dym0080/leetcode/blob/master/code/27/27_remove_element.py)
+[python](../27/27_remove_element.py)
 
 ## 记录、比较、分析别人的解决方案
 
