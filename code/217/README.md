@@ -27,6 +27,7 @@ class Solution(object):
         return False
         
 ```
+`nums.count(item)`是具有时间复杂度（估计是 `O(n)` 或者 `O(logN)`,没找到具体资料证实）的，放在 `for` 循环后，整个时间复杂度就变成了`O(N^2)` 或 `O(N*logN)`，所以才会超时。
 
 ## 记录、比较、分析别人的Solution
 
