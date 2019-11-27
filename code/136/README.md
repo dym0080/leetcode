@@ -75,3 +75,25 @@ class Solution(object):
 
 
 ## 记录、比较、分析别人的Solution
+
+
+### Solution1
+
+> 来源：[leetcode-cn](https://leetcode-cn.com/problems/single-number/solution/zhi-chu-xian-yi-ci-de-shu-zi-by-leetcode/)
+
+使用数学概念 `2∗(a+b+c)−(a+a+b+b+c)=c`
+
+```python
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        return 2 * sum(set(nums)) - sum(nums)
+
+```
+- 时间复杂度：`O(n + n) = O(n)` 。`sum` 会调用 `next` 将 `nums` 中的元素遍历一遍。我们可以把上述代码看成 `sum(list(i, for i in nums))` ，这意味着时间复杂度为 `O(n)` ，因为 `nums` 中的元素个数是 nn 个。
+- 空间复杂度： `O(n+n)=O(n)` 。 `set` 需要的空间跟 `nums` 中元素个数相等。
+
+
