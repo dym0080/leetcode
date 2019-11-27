@@ -1,6 +1,7 @@
 ## 我的Solution
 
-[python](../349/349_intersection_of_two_arrays.py)
+- [python](../349/349_intersection_of_two_arrays.py)
+- [javascript](../349/349_intersection_of_two_arrays.js)
 
 ## 解题思路
 
