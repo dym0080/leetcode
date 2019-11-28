@@ -2,6 +2,7 @@
 
 - [python](../349/349_intersection_of_two_arrays.py)
 - [javascript](../349/349_intersection_of_two_arrays.js)
+- [C#](../349/349_intersection_of_two_arrays.cs)
 
 ## 解题思路
 
