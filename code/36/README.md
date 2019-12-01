@@ -4,7 +4,7 @@
 
 ## 我的Solution
 
-[python](../36/36_valid_sudoku.py) （对于的测试代码[test](../36/36_test.py))
+[python](../36/36_valid_sudoku.py) （对应的测试代码[test](../36/36_test.py))
 
 ## 解题思路
 
