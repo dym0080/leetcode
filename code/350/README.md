@@ -1,3 +1,7 @@
+## 题目
+
+[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) <br/> [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
+
 ## 我的Solution
 
 [python](../350/350_intersection_of_two_arrays_ii.py)

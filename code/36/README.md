@@ -1,3 +1,7 @@
+## 题目
+
+[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) <br />[有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
+
 ## 我的Solution
 
 [python](../36/36_valid_sudoku.py) （对于的测试代码[test](../36/36_test.py))

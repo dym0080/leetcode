@@ -1,3 +1,7 @@
+## 题目
+
+[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) <br/> [寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/)
+
 ## 我的Solution
 
 [python](../724/724_find_pivot_index.py)

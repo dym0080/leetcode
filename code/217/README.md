@@ -1,3 +1,7 @@
+## 题目
+
+[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) <br/> [ 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)
+
 ## 我的Solution
 
 [python](../217/217_contains_duplicate.py)

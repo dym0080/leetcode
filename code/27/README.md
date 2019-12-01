@@ -1,3 +1,7 @@
+## 题目
+
+ [Remove Element](https://leetcode.com/problems/remove-element/) <br />[移除元素](https://leetcode-cn.com/problems/remove-element/)
+
 ## 我的Solution
 
 [python](../27/27_remove_element.py)
