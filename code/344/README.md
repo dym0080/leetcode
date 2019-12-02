@@ -4,13 +4,17 @@
 
 ## 我的Solution
 
-[python](../344/344_reverse_string.py)
+[python](../344/344_reverse_string.py)（2个Solution）
 
 ## 解题思路
 
-### 1.[python](../344/344_reverse_string.py)的思路
+### 1.[python Solution1](../344/344_reverse_string.py)的思路
 
 使用 `reverse()` 方法
+
+### 2.[python Solution2](../344/344_reverse_string.py)的思路
+
+使用 `s[:]=s[::-1]` 方法就地修改
 
 ## 提交未通过记录
 
