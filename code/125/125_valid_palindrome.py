@@ -5,7 +5,4 @@ class Solution(object):
         :rtype: bool
         """
         r= [x.lower() for x in filter(str.isalnum, str(s))]
-        if r == r[::-1]:
-            return True
-        else:
-            return False
+        return r == r[::-1]
