@@ -9,6 +9,7 @@
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) <br />[有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)| [python](./code/36/36_valid_sudoku.py)|[remark](./code/36)|
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) <br />[加一](https://leetcode-cn.com/problems/plus-one/)| [python](./code/66/66_plus_one.py)|[remark](./code/66)|
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) <br/> [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [python](./code/122/122_best_time_to_buy_and_sell_stock_ii.py) | [remark](./code/122) |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) <br/> [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [python](./code/125/125_valid_palindrome.py) | [remark](./code/125) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) <br/> [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [python](./code/136/136_single_number.py) | [remark](./code/136) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) <br/> [ 旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [python](./code/189/189_rotate_array.py) | [remark](./code/189) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) <br/> [ 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](./code/217/217_contains_duplicate.py) | [remark](./code/217) |
