@@ -9,6 +9,7 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) <br />[移除元素](https://leetcode-cn.com/problems/remove-element/)| [python](./code/27/27_remove_element.py)|[remark](./code/27)|
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) <br />[有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)| [python](./code/36/36_valid_sudoku.py)|[remark](./code/36)|
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) <br />[加一](https://leetcode-cn.com/problems/plus-one/)| [python](./code/66/66_plus_one.py)|[remark](./code/66)|
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) <br/> [二进制求和](https://leetcode-cn.com/problems/add-binary/)| [python](./code/67/67_add_binary.py)|[remark](./code/67)|
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) <br/> [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)| [python](./code/118/118_pascals_triangle.py)|[remark](./code/118)|
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) <br/> [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [python](./code/122/122_best_time_to_buy_and_sell_stock_ii.py) | [remark](./code/122) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) <br/> [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [python](./code/125/125_valid_palindrome.py) | [remark](./code/125) |
