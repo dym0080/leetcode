@@ -9,8 +9,3 @@ class Solution(object):
         for x in list1:
             list2.append(x[::-1])
         return " ".join(list2)
-
-
-s = "Let's take LeetCode contest"
-ss = Solution()
-print(ss.reverseWords(s))
