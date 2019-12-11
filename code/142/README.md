@@ -14,6 +14,8 @@
 
 ## 提交未通过记录
 
+### 1. https://leetcode-cn.com/submissions/detail/39607358/
+
 想参照 [141-python-Solution2](../141/141_linked_list_cycle.py) 的思路，但是报错。 需要再研究下。
 ```python
 # 11 / 16 个通过测试用例 状态：解答错误
