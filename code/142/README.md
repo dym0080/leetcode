@@ -8,7 +8,7 @@
 
 ## 解题思路
 
-### 1. [python](../142/142_linked_list_cycle_ii.py.py)的思路
+### 1. [python](../142/142_linked_list_cycle_ii.py)的思路
 
 参照 [141-python-Solution1](../141/141_linked_list_cycle.py) 的思路
 
