@@ -15,6 +15,7 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) <br/> [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [python](./code/125/125_valid_palindrome.py) | [remark](./code/125) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) <br/> [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [python](./code/136/136_single_number.py) | [remark](./code/136) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) <br/> [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [python](./code/141/141_linked_list_cycle.py) | [remark](./code/141) |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) <br/> [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [python](./code/142/142_linked_list_cycle_ii.py) | [remark](./code/142) |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) <br/> [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [python](./code/151/151_reverse_words_in_a_string.py) | [remark](./code/151) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) <br/> [ 旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [python](./code/189/189_rotate_array.py) | [remark](./code/189) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) <br/> [ 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](./code/217/217_contains_duplicate.py) | [remark](./code/217) |
