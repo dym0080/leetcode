@@ -19,4 +19,41 @@
 
 ## 记录、比较、分析别人的Solution
 
+### 1. 来源 [leetcode-cn](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/solution/tu-jie-xiang-jiao-lian-biao-by-user7208t/)，看图理解，非常巧妙的思路
+
+java:
+```java
+public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    if (headA == null || headB == null) return null;
+    ListNode pA = headA, pB = headB;
+    while (pA != pB) {
+        pA = pA == null ? headB : pA.next;
+        pB = pB == null ? headA : pB.next;
+    }
+    return pA;
+}
+```
+
+python:
+``` python
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution(object):
+    def getIntersectionNode(self, headA, headB):
+        """
+        :type head1, head1: ListNode
+        :rtype: ListNode
+        """
+        a = headA
+        b = headB
+        while a != b:
+            a = a.next if a else headB
+            b = b.next if b else headA
+        return a
+```
+
 ## 其他
