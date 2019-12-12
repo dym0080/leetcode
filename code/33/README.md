@@ -1,6 +1,6 @@
 ## 题目
 
-[EnglishTitle](https://leetcode.com/problems/search-in-rotated-sorted-array/) <br/> [中文题目](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) <br/> [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
 
 ## 我的Solution
 
