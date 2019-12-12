@@ -20,3 +20,11 @@ class Solution(object):
             else:
                 left = mid + 1        
         return -1
+
+
+
+
+
+# 解决 pylint 在vscode中检测出的报错，定义一个假的API
+def guess(num):
+    return 0 
