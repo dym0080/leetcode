@@ -4,7 +4,7 @@
 
 ## 我的Solution
 
-- [python](../704/704_binary_search.py) (2 Solutions)
+- [python](../704/704_binary_search.py) (3 Solutions)
 
 ## 解题思路
 
@@ -15,6 +15,10 @@
 ### 2. [python-Solution2](../704/704_binary_search.py)的思路
 
 使用二分查找方法。
+
+### 3. [python-Solution3](../704/704_binary_search.py)的思路
+
+对 `python-Solution1` 进行改进，去掉循环。
 
 ## 提交未通过记录
 
