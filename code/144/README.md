@@ -54,4 +54,47 @@ class Solution(object):
 
 ## 记录、比较、分析别人的Solution
 
+### 1. 来源: [力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/er-cha-shu-de-qian-xu-bian-li-by-leetcode/)
+
+> todo: 这个方法还需要再研究下
+
+方法 ：莫里斯遍历
+方法基于 莫里斯的文章，可以优化空间复杂度。算法不会使用额外空间，只需要保存最终的输出结果。如果实时输出结果，那么空间复杂度是 O(1)。
+
+算法
+
+算法的思路是从当前节点向下访问先序遍历的前驱节点，每个前驱节点都恰好被访问两次。
+
+首先从当前节点开始，向左孩子走一步然后沿着右孩子一直向下访问，直到到达一个叶子节点（当前节点的中序遍历前驱节点），所以我们更新输出并建立一条伪边 `predecessor.right = root 更新这个前驱的下一个点。如果我们第二次访问到前驱节点，由于已经指向了当前节点，我们移除伪边并移动到下一个顶点。
+
+如果第一步向左的移动不存在，就直接更新输出并向右移动。
+```python
+class Solution(object):
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        node, output = root, []
+        while node:  
+            if not node.left: 
+                output.append(node.val)
+                node = node.right 
+            else: 
+                predecessor = node.left 
+
+                while predecessor.right and predecessor.right is not node: 
+                    predecessor = predecessor.right 
+
+                if not predecessor.right:
+                    output.append(node.val)
+                    predecessor.right = node  
+                    node = node.left  
+                else:
+                    predecessor.right = None
+                    node = node.right         
+
+        return output
+```
+
 ## 其他
