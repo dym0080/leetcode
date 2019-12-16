@@ -59,7 +59,7 @@ class Solution {
 
 ### 2. 来源 [力扣（LeetCode](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/yan-se-biao-ji-fa-yi-chong-tong-yong-qie-jian-ming/)。作者：hzhu212
 
-> 已实践过该方法，非常棒。
+> 已实践过该方法，非常棒。根据说明，写了前序和后序遍历在后面。
 
 在树的深度优先遍历中（包括前序、中序、后序遍历），递归方法最为直观易懂，但考虑到效率，我们通常不推荐使用递归。
 
@@ -72,6 +72,7 @@ class Solution {
 - 使用颜色标记节点的状态，新节点为白色，已访问的节点为灰色。
 - 如果遇到的节点为白色，则将其标记为灰色，然后将其右子节点、自身、左子节点依次入栈。
 - 如果遇到的节点为灰色，则将节点的值输出。
+
 使用这种方法实现的中序遍历如下：
 
 ```python
@@ -87,6 +88,71 @@ class Solution:
                 stack.append((WHITE, node.right))
                 stack.append((GRAY, node))
                 stack.append((WHITE, node.left))
+            else:
+                res.append(node.val)
+        return res
+```
+
+使用这种方法实现的前序遍历如下：
+
+前序遍历顺序是：`根左右`。所以入栈的顺序是 `右左根`。
+
+``` python
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        WHITE, GRAY = 0, 1
+        res = []
+        stack = [(WHITE, root)]
+        while stack:
+            color, node = stack.pop()
+            if node is None: continue
+            if color == WHITE: 
+                stack.append((WHITE, node.right))
+                stack.append((WHITE, node.left))
+                stack.append((GRAY, node))                              
+            else:
+                res.append(node.val)
+        return res
+            
+```
+使用这种方法实现的后序遍历如下：
+
+后序遍历顺序是：`左右根`。所以入栈的顺序是 `根右左`。
+```python
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    def postorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        WHITE, GRAY = 0, 1
+        res = []
+        stack = [(WHITE, root)]
+        while stack:
+            color, node = stack.pop()
+            if node is None: continue
+            if color == WHITE: 
+                stack.append((GRAY, node))
+                stack.append((WHITE, node.right))
+                stack.append((WHITE, node.left))                                              
             else:
                 res.append(node.val)
         return res
