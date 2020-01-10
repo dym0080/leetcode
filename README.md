@@ -22,6 +22,7 @@
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) <br/> [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [python](./code/151/151_reverse_words_in_a_string.py) | [remark](./code/151) |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) <br/> [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [python](./code/160/160_intersection_of_two_linked_lists.py) | [remark](./code/160) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) <br/> [ 旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [python](./code/189/189_rotate_array.py) | [remark](./code/189) |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/) <br/> [快乐数](https://leetcode-cn.com/problems/xxhappy-numberx/) | [python](./code/202/202_happy_number.py) | [remark](./code/202) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) <br/> [ 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](./code/217/217_contains_duplicate.py) | [remark](./code/217) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) <br/> [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [python](./code/242/242_valid_anagram.py) | [remark](./code/242) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) <br/> [ 移动零](https://leetcode-cn.com/problems/move-zeroes/) | [python](./code/283/283_move_zeroes.py) | [remark](./code/283) |
