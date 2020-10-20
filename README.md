@@ -8,6 +8,7 @@
 | 28 |  [Implement strStr()](https://leetcode.com/problems/implement-strstr/) <br/> [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)  | [python](./code/28/28_implement_strstr.py)| [remark](./code/28)|
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) <br />[移除元素](https://leetcode-cn.com/problems/remove-element/)| [python](./code/27/27_remove_element.py)|[remark](./code/27)|
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) <br/> [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)| [python](./code/33/33_search_in_rotated_sorted_array.py)|[remark](./code/33)|
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) <br />[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)| [python](./code/35/35_search_insert_position.py)|[remark](./code/35)|
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) <br />[有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)| [python](./code/36/36_valid_sudoku.py)|[remark](./code/36)|
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) <br />[加一](https://leetcode-cn.com/problems/plus-one/)| [python](./code/66/66_plus_one.py)|[remark](./code/66)|
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) <br/> [二进制求和](https://leetcode-cn.com/problems/add-binary/)| [python](./code/67/67_add_binary.py)|[remark](./code/67)|
